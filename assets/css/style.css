@@ -9,6 +9,53 @@
 a {
     text-decoration: none;
 }
+/* navigation section */
+ul{
+    list-style: none;
+}
+
+.nav-menu{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 40px;
+    color: coral;
+}
+.menu-item{
+    display: flex;
+    align-items: center;
+}
+.menu-item li{
+    margin: 0 30px;
+    font-size: 3vmin;
+    padding: 20px;
+    
+
+}
+.menu-item a{
+    color: brown;
+}
+.menu-item a:hover{
+    background-color:white;
+    border-radius: 3px;
+}
+#title{
+    color: whitesmoke;
+    font-size: 6vmin;
+    
+}
+
+
+
+
+
+
+
+
+
+
+/* navigation section end */
 
 header {
     width: 100vw;
@@ -48,6 +95,18 @@ header {
     font-family:'Roboto';
     margin-top: 20px;
     font-weight: 500;
+    margin-bottom: 20px;
 
 }
-.button
+.button{
+    color:whitesmoke;
+    background-color: hotpink;
+    border-radius: 30px;
+    padding: 15px 32px;
+    font-size: 2vmin;
+}
+.button:hover{
+    background-color: blue;
+}
+
+    
