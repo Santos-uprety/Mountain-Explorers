@@ -108,5 +108,46 @@ header {
 .button:hover{
     background-color: blue;
 }
+/*about section */
+
+.about h1{
+    font-size: 6vmin;
+    margin-top: 30px;
+    padding: 20px 15px 20px;
+    color: brown;
+    text-align: center;
+
+}
+.about p{
+    font-family: 'Roboto';
+    font-size: 2vmin;
+    text-align: justify;
+    background-color:lightskyblue
+    color: whitesmoke;
+    margin-left: 50px;
+    margin-right: 50px;
 
     
+}
+/* offer section*/
+section{
+    width: 80%;
+    margin: 80px auto;
+
+}
+.heading{
+    text-align: center;
+    font-size: 4vmin;
+    color: brown;
+}
+    
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    background: burlywood;
+}
+.row .column img{
+    width: 80%;
+}
