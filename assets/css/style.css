@@ -130,24 +130,51 @@ header {
     
 }
 /* offer section*/
-section{
-    width: 80%;
-    margin: 80px auto;
+.packages{
+    width: 100%;
+    margin: 10px 10px 10px;
+    align-items: center;
+    background: burlywood;
+   
 
 }
 .heading{
     text-align: center;
-    font-size: 4vmin;
+    font-size: 2em;
     color: brown;
 }
     
 .row{
     display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    background: burlywood;
+   
 }
-.row .column img{
-    width: 80%;
+ .column{
+    flex: 25%;
+    padding:10px ;
+}
+.row::after{
+    clear: both;
+    display: table;
+}
+.packages .row{
+    margin-top: 20px;
+
+}
+h4{
+    font-size: 2em;
+    color: black;
+    margin: 10px auto;
+
+
+}
+.column p{
+    color: blue;
+    padding: 0px 40px;
+    text-align:center;
+    display: inline-block;
+  
+    
+}
+.packages .button{
+    margin-top: 10px;
 }
