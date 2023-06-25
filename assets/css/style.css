@@ -101,20 +101,25 @@ header {
 .button{
     color:whitesmoke;
     background-color: hotpink;
-    border-radius: 30px;
-    padding: 15px 32px;
+    border-radius: 20px;
+    padding: 10px 10px;
     font-size: 2vmin;
 }
 .button:hover{
     background-color: blue;
 }
 /*about section */
+.about{
+    width: 80%;
+    padding: 30px 30px 30px;
+    
+}
 
 .about h1{
     font-size: 6vmin;
     margin-top: 30px;
-    padding: 20px 15px 20px;
-    color: brown;
+    margin-bottom: 30px;
+   color: brown;
     text-align: center;
 
 }
@@ -122,59 +127,50 @@ header {
     font-family: 'Roboto';
     font-size: 2vmin;
     text-align: justify;
-    background-color:lightskyblue
-    color: whitesmoke;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin left: 50px;
 
+    
+    
     
 }
 /* offer section*/
-.packages{
-    width: 100%;
-    margin: 10px 10px 10px;
-    align-items: center;
-    background: burlywood;
-   
-
-}
-.heading{
-    text-align: center;
-    font-size: 2em;
-    color: brown;
-}
-    
-.row{
-    display: flex;
-   
-}
- .column{
-    flex: 25%;
-    padding:10px ;
-}
-.row::after{
-    clear: both;
-    display: table;
-}
-.packages .row{
-    margin-top: 20px;
-
-}
-h4{
-    font-size: 2em;
-    color: black;
-    margin: 10px auto;
-
-
-}
-.column p{
-    color: blue;
-    padding: 0px 40px;
-    text-align:center;
-    display: inline-block;
+section{
+    width: 90%;
   
     
+
+
 }
-.packages .button{
-    margin-top: 10px;
+.topic{
+    text-align: center;
+    font-size: 2em;
+    color: chocolate;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 60px;
+   
+    
+
+    
+}
+ .row .column{
+    display: flexbox;
+    flex-direction: column;
+ }
+    .packages .row{
+        margin-top: 30px;
+    }
+
+    .row h4{
+        font-size: 1.5em;
+        margin: 20px auto;
+
+    }
+.row p{
+    text-align: center;
+    color: darkolivegreen;
+    margin-bottom: 20px;
 }
