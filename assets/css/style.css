@@ -191,6 +191,12 @@ header {
 .content-section .card button:hover{
     background-color: blue;
 }
+@media screen and (max-width:768px){
+    .content-section{
+        flex-direction: column;
+    }
+    
+}
  
 
     
@@ -263,6 +269,38 @@ footer{
     font-weight: 400;
     margin: 0px 5px;
 }
+@media screen and(max-width:768px){
+    .footernav ul{
+        flex-direction: column;
+    }
+    .footernav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+    
+}
+/* Photos Album */
+.photo-container{
+    
+}
 
+
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-self: center;
+}
+.one-images{
+    padding: 0 20px 20px;
+
+}
+img:hover{
+    opacity: 0.5;
+    transition: 0.9s;
+
+}
 
 
