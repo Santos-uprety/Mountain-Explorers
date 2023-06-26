@@ -135,8 +135,8 @@ header {
     
 }
 /* offer section*/
-section{
-    width: 90%;
+.packages{
+    width: 80%;
   
     
 
@@ -150,9 +150,9 @@ section{
 .row{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-left: 60px;
-   
+    justify-content: space-around
+ 
+    
     
 
     
